@@ -1,0 +1,5 @@
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.csproj.AssemblyReference.cache
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.AssemblyInfoInputs.cache
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.AssemblyInfo.cs
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.csproj.CoreCompileInputs.cache

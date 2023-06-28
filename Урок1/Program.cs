@@ -25,3 +25,51 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+Console.WriteLine("Введите количество строк: ");
+int n = Convert.ToInt32(Console.ReadLine());
+string[] input = new string[n];
+
+string[] output = SortByStringLength(input);
+
+
+
+string[] SortByStringLength(string[] inputArray)
+{
+    int i = 0;
+    int k = 0;
+    while (i <= inputArray.Length)
+    {
+        inputArray[i] = Console.ReadLine(Console.WriteLine($"Введите {i}ю строку: "));
+        if (inputArray[i].Length >= 3) k++;
+    }
+    ;
+    else 
+    {  string[] outputArray = new string[k];
+    while (i <= inputArray.Length)
+    {
+        if (inputArray[i].Length >= 3)
+            for (int j = 0; j < outputArray.Length; j++)
+            {
+                outputArray[j] = inputArray[i];
+            }
+    }
+    return outputArray;
+    
+}
+
+
+
+
+void PrintArray(string[] arr)
+{
+    Console.WriteLine("[");
+    for (int k = 0; k < arr.Length - 1; k++)
+    {
+        Console.Write($""{arr[k]}" ");
+    }
+    Console.Write($""{arr[arr.Length - 1]}",]");
+Console.Write(array[k]);
+}
+
+
