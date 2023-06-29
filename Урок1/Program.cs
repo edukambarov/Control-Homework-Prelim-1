@@ -70,6 +70,7 @@ string[] FilterByStringLength(string[] input)
     {
         if (input[k].Length <= 3 && input[k].Length > 0)
         // if (input[k].Length <= 3)
+        {
             output[j] = input[k];
             j++;
         }
