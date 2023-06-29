@@ -3,3 +3,13 @@ D:\GeekBrains\Итоговая контрольная работа по осно
 D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.AssemblyInfoInputs.cache
 D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.AssemblyInfo.cs
 D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\bin\Debug\net6.0\Урок1.exe
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\bin\Debug\net6.0\Урок1.deps.json
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\bin\Debug\net6.0\Урок1.runtimeconfig.json
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\bin\Debug\net6.0\Урок1.dll
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\bin\Debug\net6.0\Урок1.pdb
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.dll
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\refint\Урок1.dll
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.pdb
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\Урок1.genruntimeconfig.cache
+D:\GeekBrains\Итоговая контрольная работа по основному блоку\Урок1\obj\Debug\net6.0\ref\Урок1.dll

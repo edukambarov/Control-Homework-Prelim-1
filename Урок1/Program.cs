@@ -28,48 +28,51 @@
 
 Console.WriteLine("Введите количество строк: ");
 int n = Convert.ToInt32(Console.ReadLine());
-string[] input = new string[n];
-
-string[] output = SortByStringLength(input);
-
-
-
-string[] SortByStringLength(string[] inputArray)
+string[] array = new string[n];
+int i = 0;
+while (i < array.Length)
 {
+    Console.WriteLine($"Введите {i + 1}ю строку: ");
+    array[i] = Console.ReadLine();
+    i++;
+}
+Console.WriteLine();
+PrintArray(array);
+Console.Write(" -> ");
+string[] result = FilterByStringLength(array);
+PrintArray(result);
+
+
+void PrintArray(string[] arr, string sep = ",")
+{
+    Console.Write("[");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (i < arr.Length - 1) Console.Write($"'{arr[i]}'{sep} ");
+        else Console.Write($"'{arr[i]}'");
+    }
+    Console.Write("]");
+}
+
+string[] FilterByStringLength(string[] input)
+{
+    int count = 0;
     int i = 0;
-    int k = 0;
-    while (i <= inputArray.Length)
+    while (i < input.Length)
     {
-        inputArray[i] = Console.ReadLine(Console.WriteLine($"Введите {i}ю строку: "));
-        if (inputArray[i].Length >= 3) k++;
+        if (input[i].Length <= 3) count++;
+        i++;
     }
-    ;
-    else 
-    {  string[] outputArray = new string[k];
-    while (i <= inputArray.Length)
+    string[] output = new string[count];
+    int j = 0;   
+    for (int k = 0; k < input.Length; k++)
     {
-        if (inputArray[i].Length >= 3)
-            for (int j = 0; j < outputArray.Length; j++)
-            {
-                outputArray[j] = inputArray[i];
-            }
+        if (input[k].Length <= 3) 
+        {
+            output[j] = input[k];
+            j++;
+        }
     }
-    return outputArray;
-    
+    return output;
 }
-
-
-
-
-void PrintArray(string[] arr)
-{
-    Console.WriteLine("[");
-    for (int k = 0; k < arr.Length - 1; k++)
-    {
-        Console.Write($""{arr[k]}" ");
-    }
-    Console.Write($""{arr[arr.Length - 1]}",]");
-Console.Write(array[k]);
-}
-
 
