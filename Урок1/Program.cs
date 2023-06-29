@@ -32,9 +32,9 @@ string[] array = new string[n];
 int i = 0;
 while (i < array.Length)
 {
-    Console.WriteLine($"Введите {i + 1}ю строку: ");
-    array[i] = Console.ReadLine();
-    i++;
+    Console.WriteLine($"Введите {i + 1}ю строку: ");    
+    array[i] = Console.ReadLine(); 
+    i++;   
 }
 Console.WriteLine();
 PrintArray(array);
@@ -60,15 +60,16 @@ string[] FilterByStringLength(string[] input)
     int i = 0;
     while (i < input.Length)
     {
-        if (input[i].Length <= 3) count++;
+        if (input[i].Length <= 3 && input[i].Length > 0) count++;
+        // if (input[k].Length <= 3)
         i++;
     }
     string[] output = new string[count];
-    int j = 0;   
+    int j = 0;
     for (int k = 0; k < input.Length; k++)
     {
-        if (input[k].Length <= 3) 
-        {
+        if (input[k].Length <= 3 && input[k].Length > 0)
+        // if (input[k].Length <= 3)
             output[j] = input[k];
             j++;
         }
