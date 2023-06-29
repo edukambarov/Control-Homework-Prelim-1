@@ -69,7 +69,7 @@ string[] FilterByStringLength(string[] input)
     for (int k = 0; k < input.Length; k++)
     {
         if (input[k].Length <= 3 && input[k].Length > 0)
-        // if (input[k].Length <= 3)
+        // if (input[k].Length <= 3) 
         {
             output[j] = input[k];
             j++;
